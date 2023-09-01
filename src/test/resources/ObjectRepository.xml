@@ -1,0 +1,18 @@
+<Website>
+
+    <HomePage>
+        <SearchBar>
+            <xpath>//input[contains(@title,'Search for')]</xpath>
+        </SearchBar>
+        <Discard>
+            <xpath>//button[contains(@class,'_2KpZ6l')]</xpath>
+        </Discard>
+    </HomePage>
+
+    <SearchResults>
+        <Iphone>
+            <xpath>//span[contains(text(),'iphone')]</xpath>
+        </Iphone>
+    </SearchResults>
+
+</Website>
